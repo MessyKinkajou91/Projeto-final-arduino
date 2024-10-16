@@ -94,6 +94,7 @@ void loop() {
       delay(400);
       digitalWrite(LED_AMARELO, LOW);
       delay(400);
+      
       //caso o botão de ligar seja acionado, shutdown será dado como false, reiniciando o sistema
       if (digitalRead(LIGA)){
         shutdown = false;
