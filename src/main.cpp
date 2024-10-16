@@ -58,7 +58,7 @@ void loop() {
 
   else if((nivel >= nivel_alto) && (digitalRead(LIGA) || flag)){
     //desliga o sistema
-    flag = true;
+    flag = false;
     digitalWrite(BOMBA,LOW);
     digitalWrite(LED_VERDE,HIGH);
     digitalWrite(LED_VERMELHO,LOW);
